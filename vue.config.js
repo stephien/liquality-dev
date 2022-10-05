@@ -86,8 +86,6 @@ module.exports = {
         }
       },
       manifestTransformer: (manifest) => {
-        manifest.content_security_policy =
-          "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.segment.com 'sha256-ZgDy59Dh4jH9g/vcPYFpoQ1wumB4IdPEOS1BJc08i+Y='; object-src 'self';"
         return manifest
       }
     }
