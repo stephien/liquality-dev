@@ -10,8 +10,7 @@
             <ChartIcon />
           </div>
           <div class="item-content">
-            <pre class="text-wrap">0.75.0 release candidate</pre
-            >
+            <pre class="text-wrap">Bug fix on "Default Web3 Wallet" button</pre>
           </div>
         </div>
       </div>
