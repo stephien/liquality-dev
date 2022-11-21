@@ -67,7 +67,7 @@ class EthereumPageProvider extends PageProvider {
 
     this.window[injectionName] = {
       isLiquality: true,
-      isMetaMask: metamaskEmulated,
+      isMetaMask: true,
       isEIP1193: true,
       networkVersion: this.network.networkId,
       chainId: this.network.chainId.toString(16),
